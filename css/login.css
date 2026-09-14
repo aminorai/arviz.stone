@@ -1,0 +1,165 @@
+@media all and (max-width: 767.999px){
+    .custom-checkbox {
+        width: 90px;
+        height: 40px;
+        position: fixed;
+        right: -10px;
+        z-index: 10000;
+        top:0px;
+        opacity: 0.8;
+        
+    }
+    .weathers {
+        font-size: 30px;
+        right: 110px !important;
+        top: -4px !important;
+        
+    }
+}
+@media all and (min-width: 768px) {
+    .custom-checkbox {
+        width: 100px;
+        height: 50px;
+        position: fixed;
+        right: -250px;
+        z-index: 10000;
+        top: 80px;
+        opacity: 0.8;
+        
+    }   
+    .mobile-lock{
+        display: inline-block;
+    }
+}
+*{
+    box-sizing: border-box;
+   }
+ 
+   :root{
+    --color-orange:#E46034;
+    --color-yellow:#FDCB17 ;
+    font-size: 12px;
+    }
+    @font-face{
+    font-family: Aminb;
+    src: url(../font/yekan.ttf);
+    }
+    @font-face{
+    font-family: vazir;
+    src: url(../font/Vazir-Medium.ttf);
+    }
+
+
+    .bg-orange{
+        color: var(--color-orange);
+    }
+    .bg-yellow{
+        color: var(--color-yellow);
+    }
+    .text-orange{
+        color: var(--color-orange);
+    }
+    .text-yellow{
+        color: var(--color-yellow);
+    }
+    .bgorange{
+        background: var(--color-orange);
+        color:#fff;
+        border: 1px solid var(--color-orange);
+    }
+    .bgyellow{
+        background: var(--color-yellow);
+        color:#fff;
+        border: 1px solid var(--color-yellow);
+    }
+    .formlogin{
+        font-size: 14px;
+        font-family: vazir;
+    }
+   
+   .MyBox{
+    border-radius: 5px;
+    /* background-color:rgb(255, 255, 255,0.25); */
+    /* background: url(../image/18668.jpg) ; */
+    background: linear-gradient(135deg, #39ab8d, #5b548a);
+    opacity: 0.9;
+    box-shadow: 0px 25px 50px rgba(0,0,0,0.1);
+    padding: 20px ;
+    max-width:500px;
+    margin:0 auto;
+    font-family: Aminb;
+    font-size: 14px;
+   
+    
+    
+   }
+   .size-login {
+    position: absolute;
+    right: 85px;
+    top: 7px;
+    height: 20px;
+    width: 20px;
+   }
+   
+   input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #cac5c5;
+    border-radius: 4px;
+    
+   }
+   
+   input[type=submit]{
+    width: 100%;
+    background-color: #0b2d22;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   
+   #un_error , #uf_error{
+    background-color: red;
+    color:#fff;
+    display:none;
+    font-size:13px;
+    padding:5px 10px;
+    border-radius:10px;
+   }
+   .bg-btn1{
+    background-color:var(--color-orange);
+    color:white;
+    border: 1px solid #ececec;
+    font-family: vazir;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0 4px 18px -5px var(--color-orange);
+}
+.bg-btn5{
+    background-color:var(--color-yellow);
+    color:white;
+    border: 1px solid #ececec;
+    font-family: vazir;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+.bg-btn5:hover{
+    background-color:var(--color-yellow);
+    color:black;
+    border: 1px solid #ececec;
+    font-family: vazir;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+.text-stone{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-orange);
+}

@@ -1,0 +1,116 @@
+@media all and (max-width: 767.99px){
+    .casecademenu{
+        position: absolute;
+        right: -250px;
+        top: 30px;
+        background-color: wheat;
+        border-radius: 0px 10px 0px 10px;
+    }
+    
+    .casecademenu a,.casecademenu a:not([href]){
+        width: 100%;
+    }
+    .casecademenu>li{
+        display: block;
+    }
+    .casecademenu ul{
+        width: 100%;
+    }
+    .casecademenu .activeul{
+        display: block !important;
+    }
+    .casecademenu>li li>a:not([href]):after{
+        content: "\2193";
+        display: inline-block;
+        float: left;
+    }
+    .dis-none{
+        display: none;
+    }
+    
+   
+
+}
+@media all and (min-width: 768px) {
+    .casecademenu a,.casecademenu a:not([href]){
+        min-width: 100px;
+    }
+    .casecademenu>li{
+        display: inline-block;
+    }
+    .casecademenu ul ul {
+        position: absolute;
+    }
+    .casecademenu>li>ul {
+        position: absolute;
+    }
+    .casecademenu li:hover>ul{
+        display: block;
+    }
+    .casecademenu>li li>a:not([href]):after{
+        content: "\2304";
+        display: inline-block;
+        float: left;
+        rotate: 90deg;
+    }
+   
+    
+   
+}
+:root{
+    --color-orange:#E46034;
+    --color-yellow:#FDCB17 ;
+    font-size: 12px;
+}
+.casecademenu{
+    z-index: 800;
+}
+.casecademenu,.casecademenu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.casecademenu li{
+    position: relative;
+}
+.casecademenu>li>ul{
+    z-index: 950;
+}
+.casecademenu ul ul{
+    right: 100%;
+    top: 0px;
+    z-index: 1000;
+}
+.casecademenu a,.casecademenu a:not([href]){
+    display: inline-block;
+    padding: 8px 15px;
+    width: 100%;
+    text-decoration: none;
+    color:rgb(76, 61, 61);
+    /* background:wheat; */
+    /* border-radius: 10px; */
+}
+.casecademenu a:hover{
+    color:var(--color-orange);
+}
+.casecademenu ul{
+    display: none;
+    background:rgb(155, 145, 145) !important;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.casecademenu li:hover>a,.activea{
+    
+    /* color: black !important;
+    outline: 1px solid black !important; */
+}
+.casecademenu>li>a:not([href]):after{
+    content:"\2304";
+    padding-right:5px ;
+    color: black;
+    display: inline-block;
+    float: left;
+    
+    font-size: 15px;
+}

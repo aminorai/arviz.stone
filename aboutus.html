@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/brands.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/casecademenu.css">
+    <link rel="stylesheet" type="text/css" href="css/weather.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <title>login</title>
+</head>
+
+<body>
+    <div class="container-fluid picback ">
+        <div class="row align-items-center ">
+            <a href="index.html" class=" col-md-2 pic-log head-line">
+            </a>
+            <div class="col-2 d-md-none ">
+                <button class="btn btn-outline-secondary py-3 w-50  btnmenu"><i class="fa fa-bars"></i> </button>
+            </div>
+            <div class="col-4 col-md-2 pt-4 ">
+                <a href="index.html" class="text-orange text-h2 fw-bold text-decoration-none">صنایع سنگ آرویز</a>
+            </div>
+            <div class="col-1 col-md-6 py-4">
+                <div class=" text-orange fw-bold  position-relative ">
+                    <ul class="casecademenu d-none d-md-block">
+                        <li><a href="index.html">صفحه اصلی</a> </li>
+                        <li><a>سنگ های تولیدی </a>
+                            <ul>
+                                <li><a href="">مرمریت</a> </li>
+                                <li><a>تراورتن</a>
+                                    <ul>
+                                        <li><a href="">عباس آباد</a> </li>
+                                        <li><a>دره بخاری</a>
+                                            <ul>
+                                                <li><a href="">ممتاز</a> </li>
+                                                <li><a href="">سوپر</a> </li>
+                                                <li><a href="">درجه یک</a> </li>
+                                                <li><a href="">درجه دو</a> </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">طرق</a> </li>
+
+                                        <ul>
+                                            <li><a href="">44</a> </li>
+                                            <li><a>44</a>
+                                                <ul>
+                                                    <li><a href="">44</a> </li>
+                                                    <li><a href="">44</a> </li>
+                                                    <li><a href="">44</a> </li>
+                                                    <li><a href="">44</a> </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="">44</a> </li>
+                                            <li><a href="">44</a> </li>
+                                        </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">گرانیت</a> </li>
+                    </ul>
+                    </li>
+                    <li><a href="product.html">خرید اینترنتی</a> </li>
+                    <li><a href="aboutus.html">درباره ما</a> </li>
+                    <li><a href="contact.html">تماس با ما</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-5 col-md-2   mt-4 position-relative ">
+                <a href="login.html" class="btn bg-btn mobile-lock px-5 fw-bold  ">
+                    ورود<a href="login.html"><img src="image/user_9513847.png" class="size-login" alt=""> </a>
+                    <a href="weather.html"><i class="position-absolute weathers">&#x26C5;
+                        </i></a>
+            </div>
+            <div class=" text-stone mt-4">
+                <form action="" name="myForm" class="text-center" onchange="myfunction()"><input type="search"
+                        name="searchname" class="bg-search border-0 p-2 rounded-3 mb-1 w-25" placeholder="search"
+                        required>
+                    <input type="button" value="جستجو" class="px-4 py-1 rounded-2 border-1 bg-btn1"><i
+                        class="fa fa-search ps-1"></i>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1  custom-checkbox">
+        <input id="status" type="checkbox" name="status">
+        <label for="status">
+
+            <div class="status-switch" data-unchecked="Off" data-checked="On"></div>
+        </label>
+    </div>
+    <div class="row">
+        <div class=" col-lg-12 text-center">
+            <div class="card-body text-center mt-5 text-size1  border-0">سنگبری آرویز(سنگبری اورعی قدیم)
+                <p class="text-size-p pt-5">سنگبری آرویز از سال ۱۳۹۷ فعالیت خود را با مدیریت جناب مهندس ساکن شروع و با
+                    همکاری محمدصادق اورعی در این مجموعه شروع به فعالیت کردند و قبلا این مجموعه به مدت....</p>
+                <button class="text-size-p px-5 py-2 text-orange" onclick="openfunc1()">بیشتر</button>
+                
+                <p id="commentid" class="text-size4 mx-auto pb-5  animate__animated animate__fadeIn animate__delay-1s active3  align-items-center col-lg-5"> قدمت ۴۵ ساله از سال ۱۳۵۷ فعالیت خود را
+                    شروع کرده و به تولید انواع سنگهای ساختمانی از جمله انواع تراورتن و مرمریت به فعالیت خود مشغول هست که
+                    با عنایت خداوند متعال توانسته در استان به رتبه خوبی در قدمت و تولید سنگ برسد . مدیریت این مجموعه بر
+                    عهده برادران اورعی هست که توانسته اند در عرصه تولید سنگ های ساختمانی به موفقیت های بسیاری دست پیدا
+                    کنند <img src="image/img-header (4).jpg" class="rounded-3" alt=""></p>                   
+            </div>
+        </div>
+    </div>   
+    <div class="container-fluid mt-5 px-0">
+        <img src="image/آرویزarviz.jpg" class="img-fluid img-footer" alt="">
+    </div>
+    <div class="container-fluid picback5 ">
+        <div class="row ">
+            <div class="col-12">
+                <div class=" border-bottom border-white pt-5 w-100 mx-auto opacity-25"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 col-md-2 ">
+                    <div class="card-header  ms-md-5 ">
+                        <div>
+                            <h2 class="text-white text-size pb-4 pt-4">لینک ها</h2>
+                        </div>
+                        <div class="pb-3"><a href="" class="text-size3 text-decoration-none text-white">معادن
+                                سنگ</a></div>
+                        <div class="pb-3"><a href="" class="text-size3 text-decoration-none text-white">کارخانجات
+                                سنگبری کشور</a></div>
+                        <div><a href="" class="text-size3 text-decoration-none text-white">سنگبری های استان
+                                خراسان</a></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 ">
+                    <div class="card-header  ms-md-5 pt-4">
+                        <div>
+                            <h2 class="text-white text-size pb-4">تماس با ما</h2>
+                        </div>
+                        <div class="pb-3"><a href="" class="text-size3 text-decoration-none text-white">شماره
+                                تماس۰۵۱۳۶۶۵۲۵۳۳</a></div>
+                        <div class="pb-3"><a href=""
+                                class="text-size3 text-decoration-none text-white">ایمیل<br>arviz.khorasan@ymail.com</a>
+                        </div>
+                        <div><a href="" class="text-size3 text-decoration-none text-white">آنلاین</a></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 ">
+                    <div class="card-header  ms-md-5 pt-4">
+                        <div>
+                            <h2 class="text-white text-size pb-4">کارخانه</h2>
+                        </div>
+                        <div class="pb-3"><a href="" class="text-size3 text-decoration-none text-white">درباره
+                                ما</a></div>
+                        <div class="pb-3"><a href="" class="text-size3 text-decoration-none text-white ">کارکنان</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6  pe-md-5 pt-5 ">
+                    <div class="card-body text-end">
+                        <h2 class="text-size text-white">مارا دنبال کنید</h2>
+                        <div class="pe-md-2 fa-hover">
+                            <a href="http://www.whatsapp.com" class=" "><i class="fa fa-whatsapp  ps-2  "></i></a>
+                            <a href="http://www.instagram.com"><i class="fa fa-instagram  ps-2"></i></a>
+                            <a href="http://www.twitter.com"><i class="fa fa-twitter  ps-2  "></i></a>
+                        </div>
+                        <p class="text-size-p text-white pt-4">پیشنهاد های منحصر به فرد رادر صندوق پستی خود
+                            دریافت کنید
+                        </p>
+                        <div class=" text-stone mt-4  ">
+                            <form action="" name="myForm2" onchange="myfunction2()"><input type="search"
+                                    name="searchname2" class="bg-search border-0 p-2 rounded-3 mb-1 w-50"
+                                    placeholder="ایمیل خود را دریافت نمائید" required>
+                                <input type="button" value="به اشتراک بزارید"
+                                    class="px-4 py-1 rounded-2 border-1 bg-btn5 "><i class="fa fa-search ps-1"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12">
+                    <div class=" border-bottom border-white pt-5 w-100 mx-auto opacity-25"></div>
+                </div>
+                <div class="col-12 col-md-6 text-start">
+                    <p class="text-size4 text-white">Made With <i class="fa fa-heart text-yellow"></i> by Amin
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 text-end">
+                    <p class="text-size4 text-white">ALL rights Reserved &copy; Your Company,2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- توضیحات بیشتر -->
+    <script type="text/javascript">
+        function openfunc1() {
+            document.getElementById("commentid").classList.toggle("active3");
+        }
+    </script>
+    <!-- دکمه خاموش و روشن صفحه -->
+    <script type="text/javascript">
+        const checkbox = document.getElementById("status");
+
+        checkbox.addEventListener("change", function () {
+            document.body.classList.toggle("dark-mode", checkbox.checked);
+        });
+    </script>
+    <!-- فرم جستجو -->
+    <script type="text/javascript">
+        function myfunction() {
+            var x = document.forms["myForm"]["searchname"].value;
+            if (x == "") {
+                alert('  جستجو انجام نشد:   ');
+            }
+            else {
+                alert('  جستجو انجام شد:  ');
+            }
+        }
+    </script>
+    <!-- منو همبرگری -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.btnmenu').click(function () {
+                $('.casecademenu').toggleClass('d-none');
+            });
+            $('.casecademenu a:not([href])').click(function () {
+                event.preventDefault();
+                $(this).toggleClass('activea');
+                $(this).next().toggleClass('activeul');
+            });
+        });
+
+    </script>
+    <!-- فرم جستجو فوتر -->
+    <script type="text/javascript">
+        function myfunction2() {
+            var x = document.forms["myForm2"]["searchname2"].value;
+            if (x == "") {
+                alert('  جستجو انجام نشد:   ');
+            }
+            else {
+                alert('  جستجو انجام شد:  ');
+            }
+        }
+    </script>
+</body>
+
+</html>

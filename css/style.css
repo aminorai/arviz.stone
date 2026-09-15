@@ -472,6 +472,7 @@ body{
 .custom-checkbox input#status + label > .status-switch:before {
     background-color: white;
     color: #355e9c;
+    
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
     left: 3px;
     z-index: 10;
@@ -495,14 +496,24 @@ body{
 
 .custom-checkbox input#status:checked + label > .status-switch:before {
     color: #355e9c;
+    
+
     left: 50%;
     content: attr(data-checked);
 }
 
-body.dark-mode {
-    background-color: #9064e3 ;/*بک گراند صفحه */
-    color: #fffefe ; /* رنگ فونت ها صفحه */
+body.dark-mode{
+    background-image: url(../image/night.jpg);/*بک گراند صفحه */
+    background-size: 100%;
+    
+     /* رنگ فونت ها صفحه */
 }
+body.dark-mode .text-orange a{
+    color: wheat;
+}
+
+
+
 
 
 .fixed-header {
@@ -548,3 +559,4 @@ body.dark-mode {
 .frammap{
     margin-top: 40px;
 }
+
